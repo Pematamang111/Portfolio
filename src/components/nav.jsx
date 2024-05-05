@@ -1,8 +1,7 @@
-import './navcss';
+// import './navcss';
 import logo from '../assets/images/favicon.ico'
 import contactImg from '../assets/images/contact.png'
-import { Link } from 'react-router-dom';
-
+import { Link } from 'react-router-dom'
 
 export default function Nav () {
     return (

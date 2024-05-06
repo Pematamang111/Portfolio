@@ -2,15 +2,10 @@
 export default function AboutPage() {
     return (
       <div className="container pt-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
-        </p>
+        <P>I'm a student of Columbia Engineering Coding Bootcamp. I love combining the worlds of logic and creative design
+            to make eye-catching, accessible, and user-friendly websites and applications. After I get the certificate from 
+            bootcamp, I'm excited to refine my skills with the right company.
+        </P>
         <section className="features-icons bg-light text-center m-4">
           <div className="container">
             <div className="row p-2">

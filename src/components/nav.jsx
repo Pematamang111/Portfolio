@@ -1,9 +1,9 @@
-// import './navcss';
+import './navcss';
 import logo from '../assets/images/favicon.ico'
 import contactImg from '../assets/images/contact.png'
 import { Link } from 'react-router-dom'
 
-export default function Nav () {
+export default function Nav() {
     return (
         <nav className="navbar">
             <img src={logo} alt="P logo" />

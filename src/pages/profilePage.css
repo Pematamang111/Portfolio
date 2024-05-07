@@ -1,0 +1,22 @@
+.container {
+	margin-left: 7rem;
+}
+
+.images {
+	object-fit: cover;
+	width: 15rem;
+	height: 15rem;
+	margin: 3rem 3rem;
+}
+
+.weatherImg {
+	width: 15rem;
+	height: 15rem;
+	margin: 3rem 3rem;
+}
+
+.rechargeImg {
+	width: 15rem;
+	height: 15rem;
+	margin: 3rem 3rem;
+}

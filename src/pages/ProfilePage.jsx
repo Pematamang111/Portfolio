@@ -1,4 +1,5 @@
 // This is a static page mocking an "About Us" section for our fake user data
+import './profilePage.css';
 import weatherImg from '../assets/images/Weather-Forecast.png';
 import rechargeImg from '../assets/images/recharge.png';
 import blogImg from '../assets/images/Blog-Post.png';
@@ -10,10 +11,10 @@ export default function ProfilePage() {
 	return (
 		<div className="container">
 			<a href="https://pematamang111.github.io/Weather-Dashboard/">
-				<img src={weatherImg} alt="weather" className="images" />
+				<img src={weatherImg} alt="weather" className="weatherImg" />
 			</a>
 			<a href="https://stewpra.github.io/R3Charge/">
-				<img src={rechargeImg} alt="battery" className="images" />
+				<img src={rechargeImg} alt="battery" className="rechargeImg" />
 			</a>
 			<a href="https://tech-blog-sxgv.onrender.com/">
 				<img src={blogImg} alt="blog post" className="images" />

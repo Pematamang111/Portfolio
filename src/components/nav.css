@@ -21,6 +21,7 @@
    margin: 1rem;
    cursor: pointer;
    color: white;
+   text-decoration: none;
 }
 
 .desktopMenus:hover {

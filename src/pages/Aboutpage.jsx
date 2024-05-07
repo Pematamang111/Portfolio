@@ -1,61 +1,20 @@
 // This is a static page mocking an "About Us" section for our fake user data
+import './aboutPage.css'
+
 export default function AboutPage() {
-    return (
-      <div className="container pt-4">
-        <P>I'm a student of Columbia Engineering Coding Bootcamp. I love combining the worlds of logic and creative design
-            to make eye-catching, accessible, and user-friendly websites and applications. After I get the certificate from 
-            bootcamp, I'm excited to refine my skills with the right company.
-        </P>
-        <section className="features-icons bg-light text-center m-4">
-          <div className="container">
-            <div className="row p-2">
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-window m-auto text-primary" />
-                  </div>
-                  <h3>Fully Responsive</h3>
-                  <p className="lead mb-0">
-                    This theme will look great on any device, no matter the size!
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-layers m-auto text-primary" />
-                  </div>
-                  <h3>Bootstrap 5 Ready</h3>
-                  <p className="lead mb-0">
-                    Featuring the latest build of the new Bootstrap 5 framework!
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-terminal m-auto text-primary" />
-                  </div>
-                  <h3>Easy to Use</h3>
-                  <p className="lead mb-0">
-                    Ready to use with your own content, or customize the source
-                    files!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
-        </p>
-      </div>
-    );
-  }
-  
+	return (
+		<div className= 'aboutMe'>
+			<p>
+				Full Stack Developer with experience in bootcamp classes in designing,
+				developing, and maintaining web applications for clients in the finance
+				and ecommerce sectors. Proficient in frontend technologies (HTML, CSS,
+				JavaScript) and backend languages (SQL) to build the server side of a website or app, with expertise in
+				web frameworks like React.
+			</p>
+			<p>
+				With my knowledge of coding, I'm excited to refine my skills with the
+				right company.
+			</p>
+		</div>
+	);
+}

@@ -7,7 +7,7 @@
 }
 
 body {
-    background: blue;
+    background: rgb(142, 142, 209);
     color: white;
     overflow: hidden; /*==*/
     overflow-y: scroll; /*==*/

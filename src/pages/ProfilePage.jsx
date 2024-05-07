@@ -11,10 +11,10 @@ export default function ProfilePage() {
 	return (
 		<div className="container">
 			<a href="https://pematamang111.github.io/Weather-Dashboard/">
-				<img src={weatherImg} alt="weather" className="weatherImg" />
+				<img src={weatherImg} alt="weather" className="images" />
 			</a>
 			<a href="https://stewpra.github.io/R3Charge/">
-				<img src={rechargeImg} alt="battery" className="rechargeImg" />
+				<img src={rechargeImg} alt="battery" className="images" />
 			</a>
 			<a href="https://tech-blog-sxgv.onrender.com/">
 				<img src={blogImg} alt="blog post" className="images" />

@@ -1,7 +1,9 @@
 .aboutMe {
-	width: 100vw;
-	max-width: 75rem;
-	margin-top: 5rem;
-	margin-left: 13rem;
+	width: 100%;
+	/* max-width: 75rem; */
+	/* margin-top: 5rem;
+	margin-left: 13rem; */
 	line-height: 2rem;
+	margin:1%;
 }
+

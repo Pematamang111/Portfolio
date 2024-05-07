@@ -23,11 +23,13 @@ export default function Nav() {
 					Portfolio
 				</Link>
 			</div>
+			<Link className="linkContact"to="/contact">
 			{/* onClick={()=> {setShowButton}} */}
-			<button className="contactBtn">
+			<button className="contactBtn" >
 				<img className="contactImg" src={contactImg} alt="contact logo" />
 				Contact Me
 			</button>
+			</Link>
 		</nav>
 
 

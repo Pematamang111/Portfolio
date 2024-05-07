@@ -1,7 +1,7 @@
 .homePage {
 	display: flex;
 	justify-content: space-around;
-	margin: 5rem 10rem 0 10rem;
+	/* margin: 5rem 10rem 0 10rem; */
 }
 
 .profilePic {
@@ -12,7 +12,7 @@
 }
 
 .about {
-	margin-top: 5rem;
+	/* margin-top: 5rem; */
 }
 
 .name {

@@ -1,0 +1,32 @@
+.form {
+    margin-top: 5rem;
+}
+
+.name,
+.emailInput,
+.msg {
+	font-size: medium;
+	width: 100%;
+	max-width: 40rem;
+	margin: 0.5rem;
+	padding: 0.5rem;
+	color: rgb(24, 77, 131);
+	border: solid;
+	border-radius: 0.5rem;
+    margin-left: 20rem;
+}
+
+.title {
+    margin-left: 33rem;
+}
+
+.descrip {
+    margin-left: 27rem;
+}
+
+.submitbtn {
+    margin-left: 38rem;
+    padding: 0.5rem 1rem;
+    border: solid;
+    color: rgb(25, 75, 135)
+}

@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import './components/nav.css';
+import './components/footer.css';
+
 
 import App from './App.jsx';
 
@@ -14,6 +16,7 @@ import ErrorPage from './pages/ErrorPage.jsx';
 import HomePage from './pages/HomePage.jsx';
 import ProfilePage from './pages/ProfilePage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
+import Contact from './pages/Contact.jsx';
 
 const router = createBrowserRouter([
 	{

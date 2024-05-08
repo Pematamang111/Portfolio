@@ -15,6 +15,7 @@
 	/* margin-top: 5rem; */
 }
 
-.name {
+.myName {
+	border: none;
 	color: rgb(22, 111, 170);
 }

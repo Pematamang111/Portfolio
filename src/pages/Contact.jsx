@@ -6,12 +6,12 @@ export default function Contact() {
 			<h1 className='title'>Contact Me</h1>
 			<p className='descrip'>Please fill out the form below to discuss any work oppertunities.</p>
 			<form action="">
-				<input type="text" className="name" placeholder="Your Name" />
-				<input type="text" className="emailInput" placeholder="Your Email" />
+				<input type="text" className="name" placeholder="Your Name" required/>
+				<input type="text" className="emailInput" placeholder="Your Email" required/>
 				<textarea
 					name="message"
 					className="msg"
-					placeholder="Your Message"></textarea>
+					placeholder="Your Message" required></textarea>
 				<button type="submit" value="Send" className="submitbtn">
 					Submit
 				</button>

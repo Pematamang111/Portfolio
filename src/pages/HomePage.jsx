@@ -5,7 +5,7 @@ export default function HomePage() {
 	return (
 		<div className="container m-5 p-5">
 			<div className="row">
-				<div className="col-md-12 homePage">
+				<div className="col-md-8 col-lg-12 col-sm-8 col-xs-4 homePage">
 					<div className="container profile">
 						<img
 							src={profilePic}
@@ -15,7 +15,7 @@ export default function HomePage() {
 					</div>
 					<div className="p-5 about">
 						<h1 className="heading">
-							Hello, <br /> I'm <span className="name">Pema</span> <br /> Full
+							Hello, <br /> I'm <span className="myName">Pema</span> <br /> Full
 							Stack Developer
 						</h1>
 						<p>

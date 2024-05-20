@@ -3,7 +3,7 @@ import profilePic from '../assets/images/profilePic.png';
 
 export default function HomePage() {
 	return (
-		<div className="container m-5 p-5">
+		<div className="container m-5 p-5 homePage">
 			<div className="row">
 				<div className="col-md-8 col-lg-12 col-sm-8 col-xs-4 homePage">
 					<div className="container profile">

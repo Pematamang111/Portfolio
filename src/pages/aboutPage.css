@@ -7,3 +7,12 @@
 	margin:1%;
 }
 
+@media (min-width: 375px) and (max-width: 430px) {
+	.row {
+	  margin-left: -8rem;
+	  margin-right: 2rem;
+	  margin-top: -7rem;
+	  margin-bottom: -10rem;
+	}
+   
+	}

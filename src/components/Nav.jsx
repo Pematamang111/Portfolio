@@ -22,6 +22,9 @@ export default function Nav() {
 				<Link className="desktopMenus" to="/profile">
 					Portfolio
 				</Link>
+				<Link className="desktopMenus" to="/resume">
+					Resume
+				</Link>
 			</div>
 			<Link className="linkContact"to="/contact">
 			{/* onClick={()=> {setShowButton}} */}

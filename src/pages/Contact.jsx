@@ -1,4 +1,5 @@
 import './contact.css';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 	return (

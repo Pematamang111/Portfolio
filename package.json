@@ -13,6 +13,7 @@
 	"author": "Pema Sherpa",
 	"license": "ISC",
 	"dependencies": {
+		"@emailjs/browser": "^4.3.3",
 		"axios": "^1.6.8",
 		"bootstrap": "^5.3.3",
 		"react": "^18.3.1",

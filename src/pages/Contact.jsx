@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import './contact.css';
 import emailjs from '@emailjs/browser';
 
@@ -7,8 +8,8 @@ export default function Contact() {
 		e.preventDefault();
 
 		emailjs
-			.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-				publicKey: 'YOUR_PUBLIC_KEY',
+			.sendForm('service_qd3oe8k', 'template_fezfrag', form.current, {
+				publicKey: 'EP2OSnTqHl6AlZe4mErX4',
 			})
 			.then(
 				() => {
@@ -26,12 +27,13 @@ export default function Contact() {
 			<p className="descrip">
 				Please fill out the form below to discuss any work oppertunities.
 			</p>
-			<form action="" ref={form}>
-				<input type="text" className="name" placeholder="Your Name" required />
+			<form action="" ref={form} onSubmit={sendEmail}>
+				<input type="text" className="name" placeholder="Your Name" name="your_name" required />
 				<input
 					type="text"
 					className="emailInput"
 					placeholder="Your Email"
+					name='your_email'
 					required
 				/>
 				<textarea

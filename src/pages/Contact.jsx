@@ -14,6 +14,8 @@ export default function Contact() {
 			.then(
 				() => {
 					console.log('SUCCESS!');
+					e.target.reset();
+					alert("Email Sent!")
 				},
 				(error) => {
 					console.log('FAILED...', error.text);
@@ -27,7 +29,7 @@ export default function Contact() {
 			<p className="descrip">
 				Please fill out the form below to discuss any work oppertunities.
 			</p>
-			<form action="" ref={form} onSubmit={sendEmail}>
+			<form ref={form} onSubmit={sendEmail}>
 				<input type="text" className="name" placeholder="Your Name" name="your_name" required />
 				<input
 					type="text"

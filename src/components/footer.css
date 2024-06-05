@@ -7,3 +7,11 @@
 .github {
     margin-right: 1rem;
 }
+
+.github:hover {
+    color: yellow;
+}
+
+.email:hover {
+    color: yellow;
+}

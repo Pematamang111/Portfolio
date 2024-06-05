@@ -2,8 +2,8 @@
 	height: 5rem;
 	width: 100vw;
 	max-width: 75rem;
-	margin: 0 auto; 
-	 padding: 1rem 2rem;
+	margin: 0 auto;
+	padding: 1rem 2rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -48,13 +48,12 @@
 	text-decoration: none;
 }
 
-.linkContact{
+.linkContact {
 	text-decoration: none;
 }
 
- @media (min-width: 375px) and (max-width: 430px) {
- .navbar {
-	margin-bottom: 7rem;
- }
-
- }
+@media (min-width: 375px) and (max-width: 430px) {
+	.navbar {
+		margin-bottom: 7rem;
+	}
+}

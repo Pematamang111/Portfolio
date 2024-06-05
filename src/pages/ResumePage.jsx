@@ -16,16 +16,18 @@ export default function ResumePage() {
 					<a href="https://lucent-gumption-866be3.netlify.app/">Portfolio</a>
 				</p>
 			</main>
-            <br />
+			<br />
 
 			<section className="summary">
 				<p>
-					Motivated tech professional and problem solver with a background in
-					big data. Experience with analytical thinking, project management,
-					strong learn skills, and execellent verbal and written communication.
+					Full Stack Developer with a certificate in Full Stack Web Development
+					from the Columbia University Coding Boot Camp. Innovative
+					problem-solver who is passionate about developing apps with a focus on
+					mobile-first design and development. Strengths in creativity,
+					teamwork, and building projects from ideation to execution.
 				</p>
 			</section>
-            <br />
+			<br />
 			<section className="skills">
 				<h3>TECHNICAL SKILLS</h3>
 				<p>
@@ -36,9 +38,9 @@ export default function ResumePage() {
 					AWS, MERN, ORM
 				</p>
 			</section>
-            <br />
+			<br />
 			<section className="projects">
-				<h3>PROJECTS</h3>
+				<h3>RELATED EXPERIENCE</h3>
 				<p>
 					<b>R3Charge</b> |{' '}
 					<a href="https://github.com/Stewpra/R3Charge.git">Repo</a> |{' '}
@@ -46,21 +48,13 @@ export default function ResumePage() {
 				</p>
 				<ul>
 					<li>
-						The battery metaphor reminds user to take breaks, the inspirational
-						quotes boost user's motivation, reducing stress, and improving
-						productivity. Also Dad jokes keep user entertained and make them
-						feel active to get back on work again.
+						Summary: R3Charge is the ultimate time management tool with a twist.
 					</li>
 					<li>
-						R3Charge is the Ultimate time management tool with a twist! This app
-						uses a unique battery metaphor to guide user's work and breaks
-						seamlessly. I created a function where the parameters are for
-						calculating time after user clicks the button to take break or to
-						start work.
+						Role: I created a function where the parameters are for calculating
+						time after a user clicks a button to take a break or to start work.
 					</li>
-					<li>
-						Tools/Languages: HTML, CSS, Javascript, Jquery, Tailwaing, daisyUI
-					</li>
+					<li>Tools: HTML, CSS, JavaScript, JQuery Tailwind, DaisyUI</li>
 				</ul>
 				<br />
 				<p>
@@ -72,18 +66,18 @@ export default function ResumePage() {
 				</p>
 				<ul>
 					<li>
-						The Arlington Food Shelf has an official page to communicate with
-						the community.
+						Summary: The Arlington Food Shelf has an official page to
+						communicate with the community.
 					</li>
 					<li>
-						The website shows what foods are currently in stock and user can
-						sign in to place an order. I added the carousels from bootstrap in
-						pages to show the images of food available, picture of Arington area
-						and people who currently working.{' '}
+						Role: The website shows what foods are currently in stock and user
+						can sign in to place an order. I added the carousels from bootstrap
+						in pages to show the images of food available, picture of Arington
+						area and people who currently working.{' '}
 					</li>
 					<li>
-						Tools/Languages: HTML, CSS, Javascript, Express, Express-Session,
-						Bootstrap, PgSQL, Sequelize, Google-Map API, Handlebars{' '}
+						Tools: HTML, CSS, Javascript, Express, Express-Session, Bootstrap,
+						PgSQL, Sequelize, Google-Map API, Handlebars{' '}
 					</li>
 				</ul>
 				<br />
@@ -94,43 +88,57 @@ export default function ResumePage() {
 				</p>
 				<ul>
 					<li>
-						This app is a user-friendly online platform, offers a seamless
-						shopping experience, featuring a curated selection of high-fashion
-						clothing for every style and occasion.
+						Summary: 1StopShop is a user-friendly online platform, offers a
+						selection of high-fashion clothing shopping experience.
 					</li>
+					<li>Role: Back-end developer</li>
 					<li>
-						The products from product.js has been seeded using React hook. Users
-						can see what products are available on inventory list. I used query
-						hook to get all products and mapping through product, if data of
-						product is there, then elements has the product.value which is
-						title, description, image will be shown on browser.
-					</li>
-					<li>
-						Tools/Languages: DaisyUI, Tailwind, CSS, HTML, JS, React + Vite,
-						Node.js, Express.js, MongoDB, GraphQL
+						Tools: DaisyUI, Tailwind, CSS, HTML, JS, React + Vite, Node.js,
+						Express.js, MongoDB, GraphQL
 					</li>
 				</ul>
 			</section>
-            <br />
-            <section className='work-experience'>
-                <h3>WORK EXPERIENCE</h3>
-                 <h4>Food Bazaar</h4>
-                 <p>Head Cashier</p>
-                 <li>Fix issues when Cashier double charge product.</li>
-                 <li>Make sure customers get what they looking for.</li>
-                 <li>remove wrong price tags from shelf.</li>
-                 <br />
-                 <h4>Walmart</h4>
-                 <p>Fabric Department Manager</p>
-                 <li>Get all needed fabric items before runs out.</li>
-                 <li>Claim damage product.</li>
-                </section>
-            <br />
+			<br />
+			<section className="work-experience">
+				<h3>ADDITIONAL EXPERIENCE</h3>
+				<h4>Food Bazaar</h4>
+				<p>Head Cashier</p>
+				<li>
+					Provided prompt and effective assistance to cashiers, ensuring a
+					smooth and efficient checkout experience for customers.
+				</li>
+				<li>
+					{' '}
+					Maintained accurate shelf pricing by diligently correcting and
+					updating price tags, enhancing the overall shopping experience.
+				</li>
+
+				<br />
+				<h4>Walmart</h4>
+				<p>Fabric Department Manager</p>
+				<li>
+					{' '}
+					Procured necessary fabric items efficiently to meet production
+					demands.
+				</li>
+				<li>
+					Managed the process of sending damaged products to the claim
+					department, ensuring timely resolution.
+				</li>
+				<li>
+					Directed customers effectively, ensuring they received prompt
+					assistance and guidance.
+				</li>
+				<li>
+					Maintained optimal inventory levels by restocking low shelves with
+					fabric items, ensuring product availability for customers.
+				</li>
+			</section>
+			<br />
 			<section className="education">
-                <h3>EDUCATION</h3>
-             <p>University: Columbia Engineering Boot Camp, Feb 2024 - May 2024</p> 
-             
-            </section>
+				<h3>EDUCATION</h3>
+				<p>University: Columbia Engineering Boot Camp, Feb 2024 - May 2024</p>
+			</section>
 		</div>
 	);
 }

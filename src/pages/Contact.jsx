@@ -8,9 +8,9 @@ export default function Contact() {
 		e.preventDefault();
 
 		emailjs
-			.sendForm('service_bgpepxr', 'template_icd402f', form.current, {
-				publicKey: 'EP2OSnTqHl6AlZe4mErX4',
-			})
+			.sendForm('service_kwhlfjy', 'template_5netiur', form.current, 
+				 'GHswk-l3NDztqK_I52lFM'
+			)
 			.then(
 				() => {
 					console.log('SUCCESS!');

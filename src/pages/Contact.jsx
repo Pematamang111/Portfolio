@@ -8,14 +8,14 @@ export default function Contact() {
 		e.preventDefault();
 
 		emailjs
-			.sendForm('service_qd3oe8k', 'template_fezfrag', form.current, {
+			.sendForm('service_bgpepxr', 'template_icd402f', form.current, {
 				publicKey: 'EP2OSnTqHl6AlZe4mErX4',
 			})
 			.then(
 				() => {
 					console.log('SUCCESS!');
 					e.target.reset();
-					alert("Email Sent!")
+					alert('Email Sent!');
 				},
 				(error) => {
 					console.log('FAILED...', error.text);
@@ -30,12 +30,18 @@ export default function Contact() {
 				Please fill out the form below to discuss any work oppertunities.
 			</p>
 			<form ref={form} onSubmit={sendEmail}>
-				<input type="text" className="name" placeholder="Your Name" name="your_name" required />
+				<input
+					type="text"
+					className="name"
+					placeholder="Your Name"
+					name="your_name"
+					required
+				/>
 				<input
 					type="text"
 					className="emailInput"
 					placeholder="Your Email"
-					name='your_email'
+					name="your_email"
 					required
 				/>
 				<textarea

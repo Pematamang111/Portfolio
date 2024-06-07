@@ -3,6 +3,9 @@
 	margin-top: 0px;
 	padding-top: 0px;
 }
+.weather, .recharge, .blog, .arlington, .network, .ecommerce {
+	width: 300px;
+}
 
 .images {
 	object-fit: cover;

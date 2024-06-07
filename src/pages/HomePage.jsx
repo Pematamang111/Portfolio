@@ -20,7 +20,7 @@ export default function HomePage() {
 						</h1>
 						<p>
 							<em>
-								I'm a computer programmer and, <br /> I love to code.
+								I'm a computer programmer and <br /> I love to code.
 							</em>
 						</p>
 					</div>

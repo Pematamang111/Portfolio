@@ -3,7 +3,19 @@
 	margin-top: 0px;
 	padding-top: 0px;
 }
-.weather, .recharge, .blog, .arlington, .network, .ecommerce {
+
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.weather,
+.recharge,
+.blog,
+.arlington,
+.network,
+.ecommerce {
 	width: 300px;
 }
 
@@ -12,7 +24,7 @@
 	width: 15rem;
 	height: 15rem;
 	margin: 3%;
-	padding:3%;
+	padding: 3%;
 }
 
 .weatherImg {

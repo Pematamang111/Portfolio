@@ -9,7 +9,7 @@ import pgSqlImg from '../assets/images/sqldb.png';
 
 export default function ProfilePage() {
 	return (
-		<div className="container">
+		<div className="container portfolio">
 			<div className="weather">
 				<a href="https://pematamang111.github.io/Weather-Dashboard/">
 					<img src={weatherImg} alt="weather" className="images" />

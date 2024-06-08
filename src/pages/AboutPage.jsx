@@ -11,7 +11,7 @@ export default function AboutPage() {
 						designing, developing, and maintaining web applications <br />
 						for clients in the finance and ecommerce sectors. Proficient in
 						frontend technologies (HTML, CSS, JavaScript) and <br />
-						backend languages (SQL) to build the server side of a website or
+						backend languages (SQL, NpSQL, MongoDB, Express.js, Node.js) to build the server side of a website or
 						app, with expertise in web frameworks like React.
 					</p>
 					<p>

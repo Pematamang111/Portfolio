@@ -15,6 +15,7 @@ export default function ResumePage() {
 					Portfolio:
 					<a href="https://lucent-gumption-866be3.netlify.app/">Portfolio</a>
 				</p>
+				<button type="button" class="btn btn-info"><a href="https://plum-clemmie-11.tiiny.site" class="download">Download Resume</a></button>
 			</main>
 			<br />
 

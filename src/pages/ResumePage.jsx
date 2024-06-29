@@ -35,7 +35,7 @@ export default function ResumePage() {
 					Frontend: HTML, CSS, JQuery, Javascript, React, Bootstrap, Tailwind, DaisyUI,
 				</p>
 				<p>
-					Backend: PostgreSQL, NoSQL, MySQL, MongoDB, Express, React, Node, Handlebars, Webpack, MERN, ORM
+					Backend: PostgreSQL, NoSQL, MySQL, MongoDB, Express, React, Node.js, Handlebars, Webpack, MERN, ORM, State
 				</p>
 			</section>
 			<br />

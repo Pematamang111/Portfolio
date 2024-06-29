@@ -32,11 +32,10 @@ export default function ResumePage() {
 			<section className="skills">
 				<h3>TECHNICAL SKILLS</h3>
 				<p>
-					Frontend: HTML, CSS, JQuery, Javascript, Bootstrap, Tailwind, DaisyUI,
+					Frontend: HTML, CSS, JQuery, Javascript, React, Bootstrap, Tailwind, DaisyUI,
 				</p>
 				<p>
-					Backend: MySQL, MongoDB, Express, ReactJS, Node, Handlebars, Webpack,
-					AWS, MERN, ORM
+					Backend: PostgreSQL, NoSQL, MySQL, MongoDB, Express, React, Node, Handlebars, Webpack, MERN, ORM
 				</p>
 			</section>
 			<br />
@@ -55,7 +54,7 @@ export default function ResumePage() {
 						Role: I created a function where the parameters are for calculating
 						time after a user clicks a button to take a break or to start work.
 					</li>
-					<li>Tools: HTML, CSS, JavaScript, JQuery Tailwind, DaisyUI</li>
+					<li>Tools: HTML, CSS, JavaScript, JQuery, Tailwind, DaisyUI</li>
 				</ul>
 				<br />
 				<p>

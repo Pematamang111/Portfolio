@@ -19,7 +19,7 @@ export default function ProfilePage() {
 					Weather Dashboard is a webpage where user can see current and future 5
 					more days weather forecast.
 				</p>
-				<p>Tools: HTML, CSS, JavaScript, JQuery, Tailwind, DaisyUI</p>
+				<p>Tools: HTML, CSS, JavaScript, JQuery</p>
 			</div>
 			<div className="recharge">
 				<a href="https://stewpra.github.io/R3Charge/">
@@ -27,6 +27,7 @@ export default function ProfilePage() {
 				</a>
 				<h4>R3Charge</h4>
 				<p> R3Charge is the ultimate time management tool with a twist.</p>
+				<p>Tools: HTML, CSS, JavaScript, Tailwind, DaisyUI</p>
 			</div>
 			<div className="blog">
 				<a href="https://tech-blog-sxgv.onrender.com/">
@@ -38,7 +39,7 @@ export default function ProfilePage() {
 					creating username and password.
 				</p>
 				<p>Tools: PostgreSQL, Sequelize, express, session</p>
-				<p>
+				<p className="note">
 					Note: This page has been deployed in Render so, it might take little
 					time for loading.
 				</p>
@@ -56,7 +57,7 @@ export default function ProfilePage() {
 					Tools: Express, PostgreSQL, Express-Session, Sequelize, Google-Map
 					API, Handlebars, Bootstrap
 				</p>
-				<p>
+				<p className="note">
 					Note: This page has been deployed in Render so, it might take little
 					time for loading.
 				</p>

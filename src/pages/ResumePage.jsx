@@ -15,7 +15,11 @@ export default function ResumePage() {
 					Portfolio:
 					<a href="https://lucent-gumption-866be3.netlify.app/">Portfolio</a>
 				</p>
-				<button type="button" class="btn btn-info"><a href="https://plum-clemmie-11.tiiny.site" class="download">Download Resume</a></button>
+				<button type="button" class="btn btn-info">
+					<a href="https://plum-clemmie-11.tiiny.site" class="download">
+						Download Resume
+					</a>
+				</button>
 			</main>
 			<br />
 
@@ -32,10 +36,12 @@ export default function ResumePage() {
 			<section className="skills">
 				<h3>TECHNICAL SKILLS</h3>
 				<p>
-					Frontend: HTML, CSS, JQuery, Javascript, React, Bootstrap, Tailwind, DaisyUI,
+					Frontend: HTML, CSS, JQuery, Javascript, React, Bootstrap, Tailwind,
+					DaisyUI,
 				</p>
 				<p>
-					Backend: PostgreSQL, NoSQL, MySQL, MongoDB, Express, React, Node.js, Handlebars, Webpack, MERN, ORM, State
+					Backend: PostgreSQL, NoSQL, MySQL, MongoDB, Express, React, Node.js,
+					Handlebars, Webpack, MERN, ORM, State
 				</p>
 			</section>
 			<br />
